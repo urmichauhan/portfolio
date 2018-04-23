@@ -1,0 +1,357 @@
+:root {
+    font-size: 16px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFCC ;
+    border-radius: 1rem;
+}
+
+.container .home {
+	margin-top: 2vh;
+	display: flex;
+	flex-direction: row;
+	align-self: center;
+	color:#660000 ; 
+	font-family: "Comic Sans",cursive; 
+	font-size: 26px;  
+	font-style: bold;  
+	font-stretch: normal;  
+	font-variant: normal;  
+	font-weight: 400;  
+	line-height: 3em;  
+}
+.container .home:hover { 
+	border-radius: 30px;
+	box-shadow:0px 3px 20px 2px #663333;
+}
+
+.container .home .icon {
+	margin-right: 1vw;
+    width: 4vw;
+    height: 6vh;
+    padding-top: 9vh;
+    border-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 30px; 
+}
+.n {
+	margin-left: 4vw;
+	padding-top: 2vh;	
+	align-items: center;
+	align-self: center;
+	list-style: none;
+	display: block;
+	
+}
+.n a {
+	font-size: 1.8rem;
+	font-weight: 800;
+	visibility: none;
+	margin-right: 7vw;
+	text-decoration-line: none;
+	color: #330033;
+	font-family: "Courier",monospace;
+}
+.n a:hover {
+	cursor:pointer;
+    border-radius: 8px;
+    color: #CC6633;
+    border-color: #CC99FF;
+    transition: color 0.3s linear 0.1s,
+    background 0.9s linear 0.1s,    
+    box-shadow 2s linear 0.1s,    
+    border 0.3s linear 0.1s;
+    box-shadow: 6px 1px 0 0 #9999CC;
+}
+.container .himg {
+	height: 70vh;
+	width: 100%;
+	box-shadow: 7px 1px 1px 3px #999999;
+
+
+}
+.container .sec {
+    margin-top: 4rem;
+}
+.selfimg {
+	order:1;
+	width: 35vw;
+	height: 70vh;
+	margin-left: 4vw;
+	border-radius: 180px;
+	box-shadow: 5px 2px 3px 4px #FFFFFF ;
+	
+}
+.myself1 .cont {
+	align-content: center;
+	padding-left:4vw;
+	
+}
+.myself1 .cont h1{
+	margin-left: 10vw;
+	font-size: 3rem;
+	font-weight: 600;
+	text-shadow: 5px 2px 6px #FFCCFF;
+	text-align: center;
+	color: #663333 ;
+	font-family: "Georgia", serif;
+}
+.myself1 .cont h2{
+	margin-left: 2vw;
+	font-size: 2rem;
+	font-weight: 300;
+	color: #663333 ;
+	font-family: "Noto Sans", sans-serif ;
+}
+.myself1 .cont p{
+	margin-left: 3vw;
+	font-size: 1.2rem;
+	font-weight: 300;
+	color: #663333 ;
+	font-family: "Snell Roundhand", cursive  ;
+}
+.hb .hobby1 {
+	margin-left: 6vw;
+}
+.hb .hobby2 {
+	margin-top:10px;
+	margin-left:12vw;
+}
+.hb .hobby1 img {
+	 width: 25vw;
+	 height: 70vh;
+}
+.hb .hobby2 img {
+	  width:40vw;
+	  height:50vh;
+}
+.tec1 h1{
+	margin-left: 10vw;
+	font-size: 2.5rem;
+	font-weight: 500;
+	text-shadow: 5px 2px 6px #FFCC99;
+	text-align: center;
+	color: #330033 ;
+	font-family: "Sanvito", cursive;
+	font-style: italic;
+}
+.tec1 .i1 {
+	width:40vw;
+	height:30vh;
+	margin-left: 0.5vw;
+}
+.tec1 .i {
+	width:50vw;
+	height:40vh;
+	margin-left: 48vw;
+	border-radius: 30rem;
+}
+.tec1 p {
+	margin-left: 30vw;
+	font-size: 1rem;
+	font-weight: 400;
+	color:#330033 ;
+	font-family: "Noto Sans", sans-serif  ;
+
+}
+.exp1 {
+	display: flex;
+	flex-direction: row;
+}
+.exp1 h2{
+	margin-left: 23vw;
+	text-shadow: 5px 2px 6px #CCCC99;
+	font-size: 2rem;
+	font-weight: 700;
+	color:#330033 ;
+	font-family: "Andale Mono", monospace ;
+}
+.exp1 div p {
+	margin-left: 7vw;
+	font-size: 1rem;
+	font-weight: 500;
+	color:#330033 ;
+	font-family: "DejaVu Sans Mono",monospace;
+}
+.exp1 img {
+	width: 25vw;
+	height: 70vh;
+	border-style: double;
+	border-color: #CCFFCC;
+	margin-right: 0.5vw;
+}
+.work1 h1{
+
+	margin-left: 23vw;
+	font-size: 3rem;
+	text-shadow: 5px 2px 6px #9999CC;
+	font-weight: 600;
+	color:#333399 ;
+	font-family:"Courier New",monospace;
+
+}
+.work1 a {
+	font-size: 30px;
+	font-weight: 800;
+	visibility: none;
+	margin-right: 30px;
+	text-decoration-line: none;
+	text-shadow: 2px 2px 3px 3px #663399;
+	color: #6666FF ;
+	font-family: "Courier",monospace;	
+}
+.work1 a:hover {
+	cursor:pointer;
+    border-radius: 8px;
+    color: #CC6666;
+    border-color: #CC99FF;
+    transition: color 0.3s linear 0.1s,
+    background 0.9s linear 0.1s,    
+    box-shadow 2s linear 0.1s,    
+    border 0.3s linear 0.2s;
+    box-shadow: 6px 1px 3px 0 #CC3366;
+    text-decoration: line-through;
+}
+.ty {
+	height:30vh;
+	width:65vw;
+	margin-left:30vw;
+	border-radius: 8px;
+}
+
+/*media queries start here */
+
+@media screen and (max-width: 780px) {
+
+    .container .home {
+    	font-size: 24px;
+    }
+    .n a {
+    	font-size: 1.4rem;
+    	margin-right: 5vw;
+    }
+    .selfimg {
+    	border-radius: 140px;
+    }
+    .myself1 .cont h1 {
+    	font-size: 2rem;
+    }
+    .myself1 .cont h2 {
+    	font-size: 1.5rem;
+    }
+    .myself1 .cont p {
+    	font-size: 1rem;
+    }
+    .tec1 h1 {
+    	font-size: 2rem;
+    }
+    .tec1 p {
+    	font-size: 1rem;
+    } 
+    .exp1 h2 {
+    	font-size: 1.5rem;
+    }
+    .exp1 div p {
+    	font-size: 1rem;
+    }
+    .exp1 img {
+    height: 50vh;
+    }
+    .work1 h1 {
+    	font-size: 3rem;
+    }
+    .work1 a {
+    	font-size: 28px;
+    	margin-right: 28px;
+    }
+}
+
+@media screen and (min-width: 580px) and (max-width: 779px) {
+    .container .home h1 {
+    	font-size: 22px;
+    }
+    .n a {
+    	font-size: 1rem;
+    	margin-right: 3vw;
+    }
+    .selfimg {
+    	border-radius: 100px;
+    }
+    .myself1 .cont h1 {
+    	font-size: 1.5rem;
+    }
+    .myself1 .cont h2 {
+    	font-size: 1.3rem;
+    }
+    .myself1 .cont p {
+    	font-size: 1rem;
+    }
+    .tec1 h1 {
+    	font-size: 2rem;
+    }
+    .tec1 p {
+    	font-size: 0.8rem;
+    } 
+    .exp1 h2 {
+    	font-size: 1.4rem;
+    }
+    .exp1 div p {
+    	font-size: 0.9rem;
+    }
+    .work1 h1 {
+    	font-size: 2.8rem;
+    }
+    .work1 a {
+    	font-size: 26px;
+    	margin-right: 26px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+
+    .container .home h1 {
+    	font-size: 18px;
+    }
+    .n a {
+    	font-size: 0.7rem;
+    	margin-right: 1vw;
+    }
+    .selfimg {
+    	border-radius: 70px;
+    }
+    .myself1 .cont h1 {
+    	font-size: 1.3rem;
+    }
+    .myself1 .cont h2 {
+    	font-size: 1.1rem;
+    }
+    .myself1 .cont p {
+    	font-size: 0.9rem;
+    }
+    .tec1 h1 {
+    	font-size: 1rem;
+    }
+    .tec1 p {
+    	font-size: 0.3rem;
+    } 
+    .exp1 h2 {
+    	font-size: 1.2rem;
+    }
+    .exp1 div p {
+    	font-size: 0.6rem;
+    }
+    .work1 h1 {
+    	font-size: 2.6rem;
+    }
+    .work1 a {
+    	font-size: 25px;
+    	margin-right: 25px;
+    }
+}
